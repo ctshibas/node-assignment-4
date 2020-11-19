@@ -1,0 +1,38 @@
+{
+  "name": "template-project",
+  "version": "1.0.0",
+  "description": "project using templating engines & routing systems in Node.js",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctshibas/assignment-4.git"
+  },
+  "keywords": [
+    "templating-engines",
+    "Node.js",
+    "pug",
+    "ejs",
+    "hbs",
+    "handlebars",
+    "routes"
+  ],
+  "author": "Corneille Tshibasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctshibas/assignment-4/issues"
+  },
+  "homepage": "https://github.com/ctshibas/assignment-4#readme"
+}

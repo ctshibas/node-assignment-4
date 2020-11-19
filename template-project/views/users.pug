@@ -1,0 +1,20 @@
+extends layouts/main-layout.pug
+
+block styles
+    link(rel="stylesheet", href="/css/user.css")
+
+block content
+    main
+        if users.length > 0
+            .grid
+                each user in users
+                    article.card.user-item
+                        header.card__header
+                            h1.user__title #{user.username}
+                        div.card__image
+                            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMApjZlivZ2eTJ91_6T3wMJbzzCN6tnWOBPg&usqp=CAU", alt="A Book")
+                        .card__content
+                            p.user__description A very interesting person!
+                        
+        else
+            h1 No Users
